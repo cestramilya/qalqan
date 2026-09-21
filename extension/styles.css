@@ -1,0 +1,30 @@
+.tox-blur {
+  filter: blur(6px);
+  cursor: pointer;
+  border-radius: 4px;
+  transition: filter .15s ease;
+  user-select: none;
+}
+
+.tox-blur:hover {
+  filter: blur(3px);
+}
+
+.tox-revealed {
+  filter: none;
+  border-left: 3px solid #d0021b;
+  padding-left: 8px;
+}
+
+.tox-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 0 6px;
+  border-radius: 8px;
+  font-size: 11px;
+  line-height: 16px;
+  color: #fff;
+  background: #d0021b;
+  vertical-align: middle;
+  cursor: default;
+}
