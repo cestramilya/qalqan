@@ -48,8 +48,7 @@ function charWbNgrams(text, [minN, maxN]) {
 function blockScore(grams, block) {
   const counts = new Map();
   for (const g of grams) {
-    const e = block.vocab[g];
-    if (e !== undefined) counts.set(g, (counts.get(g) || 0) + 1);
+    if (Object.hasOwn(block.vocab, g)) counts.set(g, (counts.get(g) || 0) + 1);
   }
   if (counts.size === 0) return 0;
 

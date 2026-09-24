@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
-import { Check, Lock } from "lucide-react"
+import { Check } from "lucide-react"
+import logo from "../../extension/icons/icon32.png"
 
 import { Switch } from "@/components/ui/switch"
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group"
@@ -40,9 +41,9 @@ export default function App() {
   return (
     <div className="w-[300px] bg-white px-7 pt-8 pb-9 font-sans text-neutral-900 antialiased">
       <div className="flex items-center justify-center gap-2">
-        <Lock className="size-4 text-neutral-400" strokeWidth={2.25} />
+        <img src={logo} alt="" className="size-5 rounded-full object-cover" />
         <span className="text-[15px] font-semibold tracking-tight">
-          Comment Shield
+          Qalqan
         </span>
       </div>
 
