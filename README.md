@@ -1,6 +1,6 @@
-<p align="center">
+<!--p align="center">
   <img src="docs/image.png" alt="Воин со щитом — иллюстрация Qalqan" width="390">
-</p>
+</p-->
 
 <h1 align="center">Qalqan (қалқан)</h1>
 
